@@ -2,8 +2,6 @@ module github.com/ronnyscale/layerarch
 
 go 1.23.1
 
-replace github.com/ronnyscale/layerarch => .
-
 require (
 	github.com/bytedance/sonic v1.13.2 // indirect
 	github.com/bytedance/sonic/loader v0.2.4 // indirect
@@ -43,3 +41,4 @@ require (
 	gorm.io/gorm v1.26.1 // indirect
 )
 
+replace github.com/ronnyscale/layerarch => .

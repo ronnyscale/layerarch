@@ -1,6 +1,7 @@
 package db
 
 import (
+	"github.com/ronnyscale/layerarch/internal/models"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 )
@@ -14,6 +15,6 @@ func InitDB(dsn string) error {
         return err
     }
 
-    DB.AutoMigrate(&User{})
+    DB.AutoMigrate(&models.User{})
     return nil
 }

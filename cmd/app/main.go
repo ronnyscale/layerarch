@@ -3,7 +3,7 @@ package main
 import (
     "github.com/gin-gonic/gin"
     "github.com/ronnyscale/layerarch/internal/handlers"
-    "github.com/ronnyscale/layerarch/pkg/db"
+    "github.com/ronnyscale/layerarch/pkg/database"
     "github.com/ronnyscale/layerarch/config"
 )
 
